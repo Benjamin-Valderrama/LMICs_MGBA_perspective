@@ -183,11 +183,10 @@ plot_perc_collabs_per_income_group <- perc_collabs_type_by_country %>%
                color = "forestgreen",
                size = 1, linewidth = 1.2) +
   
-  labs(x = "Collaborations with other countries\nfrom the same income group (%)",
+  labs(x = "International collaborations with countries\nfrom the same income group (%)",
        y = NULL,
        color = "Countries") +
   
-  see::scale_color_okabeito(order = c(1, 2, 3, 8)) +
   scale_x_continuous(breaks = seq(0, 1, by = 0.25),
                      labels = paste0(seq(0, 100, by = 25), "%")) +
   
@@ -263,7 +262,7 @@ plot_collabs_per_year <- collabs_per_year_df_to_plot %>%
                                   max(years_to_plot),
                                   by = 4)) +
   
-  labs(x = "\nYear", y = "Proportion of total publications",
+  labs(x = "\nYear", y = "International collaborations (%)",
        color = "Collaboration\nbetween") +
   
   scale_color_manual(values = c("grey30", "grey50", "grey70",
