@@ -117,7 +117,7 @@ plot_world_map_total_pubs <- world_pubs_df %>%
   theme_void() +
   theme(legend.position = "inside",
         legend.position.inside = c(0.12, 0.3),
-        legend.title = ggtext::element_markdown(size = 18),
+        legend.title = ggtext::element_markdown(size = 19),
         legend.text = element_text(size = 16.5)); plot_world_map_total_pubs
 
 ggsave(filename = "outputs/world_map_total_pubs.jpg",
@@ -212,7 +212,7 @@ plot_perc_collabs_per_income_group <- perc_collabs_type_by_country %>%
                color = "forestgreen",
                size = 1, linewidth = 1.2) +
   
-  labs(x = "International collaborations with countries\nfrom the same income group (%)",
+  labs(x = "International collaborations with countries\nof the same income group (%)",
        y = NULL) +
   
   scale_x_continuous(breaks = seq(0, 1, by = 0.25),
