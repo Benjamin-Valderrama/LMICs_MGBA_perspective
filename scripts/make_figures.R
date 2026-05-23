@@ -330,3 +330,7 @@ figure1 <- plot_world_map_total_pubs /
 ggsave(filename = "outputs/figure1.jpg",
        plot = figure1,
        height = 10, width = 16)
+
+ggsave(filename = "outputs/figure1.eps",
+       plot = figure1,
+       height = 10, width = 16, device = cairo_ps)
