@@ -334,3 +334,7 @@ ggsave(filename = "outputs/figure1.jpg",
 ggsave(filename = "outputs/figure1.eps",
        plot = figure1,
        height = 10, width = 16, device = cairo_ps)
+
+ggsave(filename = "outputs/figure1.svg",
+       plot = figure1,
+       height = 10, width = 16)
