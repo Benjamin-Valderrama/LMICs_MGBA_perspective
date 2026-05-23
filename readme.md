@@ -2,7 +2,8 @@
 
 Benjamin Valderrama<sup>1,2</sup>, Livia H. Morais<sup>3</sup>, Aonghus Lavelle<sup>1,2</sup>, Sian M.J. Hemmings<sup>4,5</sup>, Lindsay J. Hall<sup>6,7</sup>, Zul Merali<sup>8</sup>, Gerard Clarke<sup>1,9</sup>, John F. Cryan<sup>1,2</sup> 
 
-<div style="font-size: 12px;">1. APC Microbiome Ireland, University College Cork, Cork, Ireland.  
+<div style="font-size: 12px;">
+1. APC Microbiome Ireland, University College Cork, Cork, Ireland.  
 
 2. Department of Anatomy and Neuroscience, University College Cork, Cork, Ireland.  
 
